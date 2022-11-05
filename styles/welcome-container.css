@@ -1,0 +1,22 @@
+div.welcome-container {
+  margin-top: 5rem;
+  justify-self: start;
+  grid-area: welcome-container;
+  text-align: center;
+}
+
+div.welcome-container p {
+  margin: 0;
+}
+
+div.welcome-container p:nth-of-type(1) {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+div.welcome-container p:nth-of-type(2) {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
